@@ -1,0 +1,98 @@
+body {
+  background-color: #272727;
+  margin: 0;
+  font-family: new-order, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.top-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.top-container .profile-pic {
+  width: 10em;
+  border-radius: 50%;
+}
+
+.middle-container {
+  margin-bottom: 2em;
+}
+
+.middle-container button {
+  width: 25em;
+  height: 5em;
+  display: inline-block;
+  background-color: #272727;
+  border: 0;
+  border-radius: 5em;
+  margin-bottom: 1.5em;
+  -webkit-box-shadow: 6px 5px 15px #212121;
+          box-shadow: 6px 5px 15px #212121;
+  cursor: pointer;
+}
+
+.middle-container button:hover {
+  -webkit-box-shadow: 5px 5px 5px #212121;
+          box-shadow: 5px 5px 5px #212121;
+}
+
+.middle-container button:hover a {
+  color: #ffd991;
+  text-shadow: 0px 0px 5px #ffd991;
+}
+
+.middle-container button:active {
+  -webkit-box-shadow: inset  2px 2px 5px #212121;
+          box-shadow: inset  2px 2px 5px #212121;
+}
+
+.middle-container button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+.bottom-container {
+  margin-top: 1em;
+}
+
+.social-media-icon {
+  width: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  height: 3em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 3em;
+}
+
+.icon-credit {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.icon-credit a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+@media only screen and (min-width: 670px) {
+  .top-container {
+    max-width: 550px;
+  }
+  .middle-container {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
